@@ -1,11 +1,23 @@
 {
   "name": "sanitize-global-styles",
   "version": "1.0.0",
-  "description": "",
+  "description": "This package provides a single function, that returns a js object containing css styles from sanitize.css",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mieszko Sabo",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mieszkosabo/sanitize-global-styles"
+  },
+  "keywords": [
+    "css-in-js",
+    "styled-components",
+    "global",
+    "styles",
+    "sanitize",
+    "normalize"
+  ]
 }
