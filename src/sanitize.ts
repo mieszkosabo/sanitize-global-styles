@@ -1,4 +1,4 @@
-export const sanitize = {
+export const sanitize = [{
   "*,\n::before,\n::after": {
     boxSizing: "border-box",
     backgroundRepeat: "no-repeat"
@@ -105,4 +105,4 @@ export const sanitize = {
     clip: "rect(0, 0, 0, 0)",
     position: "absolute"
   }
-};
+}];
